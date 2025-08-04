@@ -1,6 +1,9 @@
+<script setup>
+import { ref } from 'vue'
+
+const isMobileMenuOpen = ref(false)
+</script>
+
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+	<NuxtPage />
 </template>
